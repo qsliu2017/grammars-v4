@@ -2676,7 +2676,6 @@ inline_constraint
 inline_ref_constraint
     : SCOPE IS tableview_name
     | WITH ROWID
-    | (CONSTRAINT constraint_name)? references_clause constraint_state?
     ;
 
 out_of_line_ref_constraint
